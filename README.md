@@ -1,6 +1,10 @@
 # Getting Started with AHPCC
 
-// Put AHPCC Logo here!
+---------
+
+<img src="images/ahpcc-logo.png">
+
+------
 
 ## Agenda
 1. Introducing the Portal and Interactive Apps
