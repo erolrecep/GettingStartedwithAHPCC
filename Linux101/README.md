@@ -63,7 +63,7 @@ It looks like we have the most of the files - folders needed to start developmen
 
 In this part of the training, we'll build a mini Python project and make it run on the HPC system. Before going further, let's get to know what the project will be about. To make things simple and more understandable, fibonacci sequence is used for the core of the project. Basically, we'll calculate some set of fibonacci values and we'll display their sequential ration in a plot. If there is no any question, let's get our hands dirty!
 
-
+<img src="../images/pinnacle_gui_code.png">
 
 		$ code .  
 		# In the VM GUI, this command opens the Visual Studio Editor.
