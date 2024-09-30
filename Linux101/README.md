@@ -86,3 +86,42 @@ To make sure the cloned repository is correctly cloned, let's check it.
 		$ cd .. 		# This command changes the directory to the parent directory
 		$ cd python-project-template-full
 		# Now, we are in the repository folder
+
+Let's prepare Python environment for the project.
+
+    $ module load miniforge
+
+Make sure we have access to Python REPL.
+
+    $ python3
+    >>>
+
+The next step is load other required software
+
+    $ module load 
+    $ activate conda environment
+
+Now, run the project
+
+    $ pwd
+    # ../python-project-template-full
+    
+    $ ls
+    ├── data
+    ├── output
+    ├── main.py          <------
+    └── requirements.txt
+
+Python file, "main.py" will be used to run the project.
+
+    $ python main.py
+
+The output of  the program is written to the "output" folder!
+
+## Exercise!
+
+Can you make this project run with SLURM in HPC?
+
+After, tomorrow's training, you can easily write the slurm job script and submit for running the project.
+
+Awesome! You learned a lot today!
