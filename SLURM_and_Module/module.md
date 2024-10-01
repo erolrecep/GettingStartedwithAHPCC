@@ -35,7 +35,7 @@ __How to remove all loaded packages from my system?__
 
 ## Exercises!
 
- 1. How can I load required packages to compile a C code?
- 2. How can I load required packages to run Python project?
+ 1. How can I load required packages to compile a C code? Write the SLURM script for the C_program.
+ 2. How can I load required packages to run Python project? Write the SLURM script for the Python_program.
  3. Purge all loaded packages and make sure they are all gone?
 
