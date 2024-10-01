@@ -19,7 +19,7 @@ def fibonacci(number):
         return sequence
 
 def main():
-    with open("fibonacci_sequence.txt", "w") as f:
+    with open("../output/fibonacci_sequence_100.txt", "w") as f:
         for x in fibonacci(100):
             f.write(str(x) + "\n")
 

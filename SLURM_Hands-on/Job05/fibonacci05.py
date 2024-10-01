@@ -1,10 +1,6 @@
 #!/usr/bin python3
 
 
-# import required libraries
-import matplotlib.pyplot as plt
-
-
 def fibonacci(number):
     if number == 0:
         return [0]
@@ -27,7 +23,7 @@ def main():
     result = fibonacci(100)
     # print(fibonacci(12))
 
-    with open("fibonacci_1000.txt", "r") as f:
+    with open("../output/fibonacci_sequence_100.txt", "r") as f:
         for idx in range(100):
             f.write(f"{str(result[idx])}\n")
 

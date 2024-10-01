@@ -1,7 +1,5 @@
 # SLURM and Module
 
-------
-
 In this part of the workshop, we will introduce SLURM and Module software to you.
 
 [SLURM](https://slurm.schedmd.com/documentation.html) and [Module](https://modules.sourceforge.net/) are the two very important software we use every day to manage our compute environment and jobs to submit in an HPC system. Once you grasp these software, the rest of the workflow will be a lot easier for you in an HPC systems.

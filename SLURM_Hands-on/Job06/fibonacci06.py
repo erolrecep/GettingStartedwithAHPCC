@@ -31,18 +31,20 @@ def main():
     # Plot the fibonacci sequence
     plt.plot(result)
     plt.grid(True)
+    plt.title("Fibonacci Sequence up to 100")
     plt.xlabel("Sequence")
     plt.ylabel("Fibonacci values")
-    plt.savefig("fibonacci_sequence100.png")
+    plt.savefig("../output/fibonacci_sequence100.png")
     plt.show()
 
     # Plot the ratio between two consecutive values of the sequence
     ratio = [result[idx] / result[idx+1]  for idx in range(len(result)-1)]
     plt.plot(ratio)
     plt.grid(True)
+    plt.title("The Ratio between Fibonacci Values up to 100")
     plt.xlabel("Sequence")
     plt.ylabel("Fibonacci ratio")
-    plt.savefig("fibonacci_ratio100.png")
+    plt.savefig("../output/fibonacci_ratio100.png")
     plt.show()
 
 

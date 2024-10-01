@@ -5,8 +5,10 @@
 #SBATCH --time=00:00:10                       # Time limit (HH:MM:SS)
 #SBATCH --mem=100M                            # Memory limit
 
+# Purge previously loaded packages
+
 # Load the necessary modules (if applicable)
-module load python/3.x
+module load ???
 
 # Run the Python program
 python3 fibonacci03.py
