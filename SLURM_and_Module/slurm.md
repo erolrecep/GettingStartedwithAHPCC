@@ -66,7 +66,7 @@ Sometimes, the time we allocated may be a lot more than we anticipated. In this 
 
 As it's seen that, you just provide the job-Id to cancel any job you submitted. 
 
-Sometimes, we may forget what was the job ID. In these cases, you can easily call,
+Sometimes, we may forget what the job ID was. In these cases, you can easily call,
 
     $ squeue -u <username>
 
@@ -76,7 +76,7 @@ The result of this command is going to give you the job ID of any job we submitt
 
 ## Exercises
 
-In the "../SLURM_Hands-on" folder, there are 6 mini Python projects. In this hands-on exercises, you can practice writing SLURM job scripts and submit these jobs then monitor how things go in there. If you have any question, feel fre to ask!
+In the __"../SLURM_Hands-on"__ folder, there are 6 mini Python projects. In this hands-on exercises, you can practice writing SLURM job scripts and submit these jobs then monitor how things go in there. If you have any question, feel fre to ask!
 
 Good Luck!
 
