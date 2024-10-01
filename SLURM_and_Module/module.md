@@ -3,6 +3,8 @@
 ## Why do we need the Module?
 
 
+---------
+
 __How can we check which packages are loaded to my HPC system?__
 
     $ module list
