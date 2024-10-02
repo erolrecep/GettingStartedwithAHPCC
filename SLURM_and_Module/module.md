@@ -13,7 +13,7 @@ __What are the available packages that I can load to my system?__
 
     $ module avail
 
-__How to search a package in the module database?__
+__How to search for a package in the module database?__
 
     $ module spider <keyword>
 
