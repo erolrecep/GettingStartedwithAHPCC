@@ -7,7 +7,7 @@
 ------
 
 ## Agenda
-1. Introducing the Portal and Interactive Apps
+1. Introducing the [Portal](https://hpc-portal2.hpc.uark.edu) and Interactive Apps
 2. Terminal from browser & get access to AHPCC
 3. [Linux 101](Linux101/README.md): Start using HPC operating system
    + Project 1: Create a Python project template
