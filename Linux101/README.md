@@ -74,7 +74,7 @@ Now, we are in the editor. Let's continue writing some code.
 
 It looks like writing code in the training is going to take more than I anticipated. Let's clone the repo and continue working on there!
 
-		$ git clone https://github.com/erolrecep/GettingStartedwithAHPCC.git
+        $ git clone https://github.com/erolrecep/GettingStartedwithAHPCC.git
         $ cd <to_Linux101_workshop_folder>
 
 Since the name of the repository is different than we created, you can easily clone the repository to the same directory of "/home/<username>/Desktop/python-project-template".
@@ -89,27 +89,27 @@ To make sure the cloned repository is correctly cloned, let's check it.
 
 Let's prepare Python environment for the project:
 
-    $ module load python/miniforge<version>
+        $ module load python/miniforge<version>
 
 Make sure we have access to Python REPL:
 
-    $ python3
-    >>>
+        $ python3
+        >>>
 
 Now, run the project:
 
-    $ pwd
-    # ../python-project-template-full
-    
-    $ ls
-    ├── data
-    ├── output
-    ├── main.py          <------
-    └── requirements.txt
+        $ pwd
+        # ../python-project-template-full
+        
+        $ ls
+        ├── data
+        ├── output
+        ├── main.py          <------
+        └── requirements.txt
 
 Python file, "main.py" will be used to run the project.
 
-    $ python main.py
+        $ python main.py
 
 The output of  the program is written to the "output" folder!
 
