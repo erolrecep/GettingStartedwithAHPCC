@@ -16,7 +16,7 @@ Make sure to open the interactive GUI desktop application and then open a termin
 
 Since terminal shows us where we are, we like to see the full path with:
 
-	$ pwd
+    $ pwd
 
 Change directory to where you want to create your project template:
 
@@ -64,52 +64,52 @@ In this part of the training, we'll build a mini Python project and run it on th
 
 <img src="../images/pinnacle_gui_code.png">
 
-		$ code .  
-		# In the VM GUI, this command opens the Visual Studio Editor.
+    $ code .  
+    # In the VM GUI, this command opens the Visual Studio Editor.
 
 Now, we are in the editor. Let's continue writing some code.
 
 
-		...
+    ...
 
 It looks like writing code in the training is going to take more than I anticipated. Let's clone the repo and continue working on there!
 
-        $ git clone https://github.com/erolrecep/GettingStartedwithAHPCC.git
-        $ cd <to_Linux101_workshop_folder>
+    $ git clone https://github.com/erolrecep/GettingStartedwithAHPCC.git
+    $ cd <to_Linux101_workshop_folder>
 
 Since the name of the repository is different than we created, you can easily clone the repository to the same directory of "/home/<username>/Desktop/python-project-template".
 <br>
 
 To make sure the cloned repository is correctly cloned, let's check it.
 
-		$ pwd 			# /home/<username>/Desktop/GettingStartedwithAHPCC/Linux101
-		$ cd .. 		# This command changes the directory to the parent directory
-		$ cd Linux101/python-project-template-full
-		# Now, we are in the project folder
+    $ pwd 			# /home/<username>/Desktop/GettingStartedwithAHPCC/Linux101
+    $ cd .. 		# This command changes the directory to the parent directory
+    $ cd Linux101/python-project-template-full
+    # Now, we are in the project folder
 
 Let's prepare Python environment for the project:
 
-        $ module load python/miniforge<version>
+    $ module load python/miniforge<version>
 
 Make sure we have access to Python REPL:
 
-        $ python3
-        >>>
+    $ python3
+    >>>
 
 Now, run the project:
 
-        $ pwd
-        # ../python-project-template-full
+    $ pwd
+    # ../python-project-template-full
         
-        $ ls
-        ├── data
-        ├── output
-        ├── main.py          <------
-        └── requirements.txt
+    $ ls
+    ├── data
+    ├── output
+    ├── main.py          <------
+    └── requirements.txt
 
 Python file, "main.py" will be used to run the project.
 
-        $ python main.py
+    $ python main.py
 
 The output of  the program is written to the "output" folder!
 
