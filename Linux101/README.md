@@ -50,7 +50,6 @@ The next step is creating each required files and folders for the project templa
 Great! Now, let's check if we created all the files and folders for the project template???
 
 	$ ls --group-directories-first
-	$ ls --g
 
     ├── data
     ├── output
@@ -75,31 +74,27 @@ Now, we are in the editor. Let's continue writing some code.
 
 It looks like writing code in the training is going to take more than I anticipated. Let's clone the repo and continue working on there!
 
-		$ git clone erolrecep/python-project-template-full.git
+		$ git clone https://github.com/erolrecep/GettingStartedwithAHPCC.git
+        $ cd <to_Linux101_workshop_folder>
 
 Since the name of the repository is different than we created, you can easily clone the repository to the same directory of "/home/<username>/Desktop/python-project-template".
 <br>
 
 To make sure the cloned repository is correctly cloned, let's check it.
 
-		$ pwd 			# /home/<username>/Desktop/python-project-template
+		$ pwd 			# /home/<username>/Desktop/GettingStartedwithAHPCC/Linux101
 		$ cd .. 		# This command changes the directory to the parent directory
-		$ cd python-project-template-full
-		# Now, we are in the repository folder
+		$ cd Linux101/python-project-template-full
+		# Now, we are in the project folder
 
 Let's prepare Python environment for the project:
 
-    $ module load miniforge
+    $ module load python/miniforge<version>
 
 Make sure we have access to Python REPL:
 
     $ python3
     >>>
-
-The next step is to load other required software:
-
-    $ module load 
-    $ activate conda environment
 
 Now, run the project:
 

@@ -27,13 +27,14 @@ def main():
     result = fibonacci(100)
     # print(fibonacci(12))
 
-    with open("data/fibonacci_1000.txt", "w") as f:
+    with open("data/fibonacci_100.txt", "w") as f:
         for idx in range(100):
             f.write(f"{str(result[idx])}\n")
 
     # Plot the fibonacci sequence
     plt.plot(result)
     plt.grid(True)
+    plt.title("The Growth of Fibonacci Sequence Values")
     plt.xlabel("Sequence")
     plt.ylabel("Fibonacci values")
     plt.savefig("output/fibonacci_sequence100.png")
@@ -43,6 +44,7 @@ def main():
     ratio = [result[idx] / result[idx+1]  for idx in range(len(result)-1)]
     plt.plot(ratio)
     plt.grid(True)
+    plt.title("Ratio Between Fibonacci Sequence Values")
     plt.xlabel("Sequence")
     plt.ylabel("Fibonacci ratio")
     plt.savefig("output/fibonacci_ratio100.png")
