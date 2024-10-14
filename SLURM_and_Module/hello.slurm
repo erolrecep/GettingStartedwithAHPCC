@@ -6,6 +6,6 @@
 #SBATCH --time=00:10:00
 
 module purge
-module load gcc
+module load gcc/latest
 gcc -o main main.c -lm
 ./main

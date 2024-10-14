@@ -8,7 +8,7 @@
 # Load the necessary modules (if applicable)
 module load python/3.x
 
-# load miniforge module
+# load miniforge module or virtualenv environment
 
 # load one of the available Python virtual environments
 

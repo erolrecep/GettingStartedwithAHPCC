@@ -8,7 +8,7 @@ In this part of the workshop, you will play with 6 mini Python projects, and you
  - [Job03](Job03) -- We want to record the output in a Python list. The expected output of the program is printing the items in a Python list.
  - [Job04](Job04) -- Time to write the output of the program in a file. The expected output is a txt file where the sequence is recorded to this file.
  - [Job05](Job05) -- We don't need to calculate the sequence everytime we run the program. Let's read the sequence from the txt file and return the user input value. The expected output is just the value.
- - [Job06](Job06) -- Let's visualize the first 100 items of the fibonacci sequence in a plot. In the another plot, visualize the ratio between two values of the sequence. The expected output is two plots.
+ - [Job06](Job06) -- Let's visualize the first 100 items of the fibonacci sequence in a plot. In the another plot, visualize the ratio between two values of the sequence. The expected output is two plots. Keep in mind that this exercise uses a library that needs to be installed. Some pre-built virtual environments may have this library. If it's not available then you need to create a new Python virtual environment and install this library.
 
 These mini projects may seem very easy to run on our laptops or PCs. With these exercises, you will learn how to automate running projects and build SLURM job scripts and the following all the stages of a job with the commands we learned in the previous hands-on exercises.
 

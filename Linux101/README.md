@@ -20,7 +20,7 @@ Since terminal shows us where we are, we like to see the full path with:
 
 Change directory to where you want to create your project template:
 
-	$ cd /home/rerol/Desktop
+	$ cd /home/<username>/Desktop
  	
 Create the project folder:
 
